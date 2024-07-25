@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./images/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon/favicon-16x16.png"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./images/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- end favicon -->
+        <title>Handbook Korean - Sổ Tay SỨC KHỎE Cho người lao động VIỆT NAM làm việc tại HÀN QUỐC</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap"
+            rel="stylesheet"
+        />
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- header -->
+        <header id="header" class="header relative js__stickyHeader">
+            <!-- pc -->
+            <div class="d-3xl-block d-lg-none w-1290">
+                <div class="header-top d-3xl-flex items-center justify-between">
+                    <!-- logo -->
+                    <div class="header-logo flex-0">
+                        <a href="#" class="header-logo__link"><img src="./images/logo-trang-1.png" alt="" class="header-logo__img"></a>
+                    </div>
+                    <!-- logo -->
+                    <div class="header-right flex-1 d-3xl-flex items-center gap-24">
+                        <!-- search -->
+                         <div class="header-search js__searchContainer">
+                            <div class="header-search__icon js__searchIcon">
+                                <img src="./images/svg/search.svg" alt="">
+                            </div>
+                            <div class="header-search__wrapper js__searchContent">
+                                <div class="header-search__close js__closeSearch">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <div class="header-search__form">
+                                    <form action="" class="relative">
+                                        <input type="text" class="search-input w-full h-full js__searchInput" placeholder="Tìm kiếm...">
+                                        <button class="search-btn">
+                                            <svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z" fill="currentColor"></path></svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                        <!-- end search -->
+                        <!-- navbar -->
+                         <ul class="navbar d-3xl-flex items-center gap-24">
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Handbook</a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 1: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 2: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 3: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Tin tức</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Liên hệ</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Về chúng tôi</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item navbar-item-languageWrapper">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link navbar-item__language">
+                                        <div class="navbar-item__flag-icon">
+                                            <img src="./images/flag-vi.png" alt="">
+                                        </div>
+                                        <span class="navbar-item__text">Tiếng việt</span>
+                                    </a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-item__link navbar-item__language">
+                                                <div class="navbar-item__flag">
+                                                    <img src="./images/flag-co.png" alt="">
+                                                </div>
+                                                <span class="navbar-item__text">KO</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            
+                         </ul>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+            </div>
+            <!-- end pc -->
+
+            <!-- mb -->
+            <div class="d-3xl-none d-lg-block">
+               
+            </div>
+            <!-- end mb -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            
+            <!-- primary -->
+            <section class="main-primary relative z-20 over-hidden w-wrapper">
+                <div class="main-primary__bg-1">
+                    <img src="./images/bot-left.png" alt="">
+                </div>
+                <div class="main-primary__container w-1290">
+                    <h1 class="main-primary__heading">
+                        <span class="heading-1">Sổ Tay</span>
+                        <span class="heading-2">Sức Khỏe</span>
+                    </h1>
+                    <div class="main-primary__content">
+                        <h2 class="main-primary__text">
+                            <span class="text-1">Cho người lao động</span>
+                            <span class="text-2">Việt nam</span>
+                        </h2>
+                        <h2 class="main-primary__text">
+                            <span class="text-1">làm việc tại</span>
+                            <span class="text-2">Hàn Quốc</span>
+                        </h2>
+                    </div>
+                    <div class="main-primary__flag">
+                        <div class="main-primary__flag-item">
+                            <div class="image-wrapper">
+                                <img src="./images/flag-vi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="main-primary__flag-item">
+                            <div class="image-wrapper">
+                                <img src="./images/flag-co.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-primary__bg-2">
+                        <img src="./images/bg-1.png" alt="">
+                    </div>
+                    <div class="main-primary__search">
+                        <form action="" class="relative">
+                            <input type="text" class="search-input w-full h-full" placeholder="Tìm kiếm">
+                            <button class="search-btn absolute">
+                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" fill="currentColor"></path></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- end primary -->
+
+            <!-- secondary -->
+             <section class="main-secondary relative z-20 over-hidden w-wrapper">
+                <div class="main-secondary__container w-1290">
+                    <!-- heading -->
+                    <h2 class="heading-primary text-center fw-600 text-blue-08 uppercase">Sổ tay sức khỏe</h2>
+                    <!-- end heading -->
+                    <!-- content -->
+                    <div class="main-secondary__content mt-30 d-3xl-grid col-3 gap-20">
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-1.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 1:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Hệ thống y tế và hệ thống khám, chữa bệnh tại Hàn Quốc
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-2.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 2:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Bảo hiểm y tế và dịch vụ y tế
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-3.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 3:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Kiểm tra sức khỏe
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-4.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 4:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               An toàn và sức khỏe nghề nghiệp
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-5.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 5:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Bệnh truyền nhiễm
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-6.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 6:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Sức khỏe tình dục và sức khỏe sinh sản
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-7.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 7:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Sức khỏe tinh thần/tâm thần
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                        <!-- item -->
+                        <div class="article">
+                            <!-- img -->
+                            <div class="article-img">
+                                <a href="#" class="image-wrapper">
+                                    <img src="./images/chapter-8.png" alt="">
+                                    <!-- content -->
+                                    <div class="article-content text-white">
+                                       <h3 class="article-title fs-20 fw-700 lh-130 text-center">
+                                           Chương 8:
+                                       </h3>
+                                       <div class="article-des fs-28 lh-130 mt-12 fw-600 uppercase text-center">
+                                           <p>
+                                               Danh bạ đường dây nóng
+                                           </p>
+                                       </div>
+                                   </div>
+                                    <!-- end content -->
+                                </a>
+                            </div>
+                            <!-- end img -->
+                        </div>
+                        <!-- end item -->
+                    </div>
+                    <!-- end content -->
+                </div>
+             </section>
+            <!-- end secondary -->
+
+            <!-- tertiary -->
+            <section class="main-tertiary relative z-20 over-hidden w-wrapper">
+                <div class="main-tertiary__container w-1290 d-3xl-flex items-center justify-between gap-24">
+                    <!-- left -->
+                     <div class="main-tertiary__left">
+                        <a href="#" class="main-tertiary__left-link d-3xl-flex items-center gap-20">
+                            <!-- img -->
+                            <div class="article-img flex-0">
+                                <img src="./images/bg-2.png" alt="">
+                            </div>
+                            <!-- end img -->
+
+                             <!-- content -->
+                              <div class="article-field flex-1">
+                                <!-- heading -->
+                                <h2 class="heading-secondary text-blue-08 fw-600 uppercase">Hướng dẫn sử dụng</h2>
+                                <!-- end heading -->
+                                 <div class="article-content d-3xl-flex items-center justify-between gap-20 mt-30">
+                                    <div class="article-content__icon flex-0">
+                                        <img src="./images/svg/search-w.svg" alt="">
+                                    </div>
+                                    <div class="article-content__list d-3xl-flex items-center flex-1">
+                                        <div class="article-content__item">
+                                            <img src="./images/icon-manual-1.png" alt="">
+                                        </div>
+                                        <div class="article-content__item">
+                                            <img src="./images/icon-manual-2.png" alt="">
+                                        </div>
+                                        <div class="article-content__item">
+                                            <img src="./images/icon-manual-3.png" alt="">
+                                        </div>
+                                        <div class="article-content__item">
+                                            <img src="./images/icon-manual-4.png" alt="">
+                                        </div>
+                                    </div>
+                                 </div>
+                              </div>
+                             <!-- end content -->
+                        </a>
+                     </div>
+                    <!-- end left -->
+                    <!-- right -->
+                     <div class="main-tertiary__right">
+                        <!-- item -->
+                        <a href="#" class="main-tertiary__right-item"><img src="./images/okeee.png" alt=""></a>
+                        <!-- end item -->
+                        <!-- item -->
+                        <a href="#" class="main-tertiary__right-item"><img src="./images/123.png" alt=""></a>
+                        <!-- end item -->
+                     </div>
+                    <!-- end right -->
+                </div>
+             </section>
+            <!-- end tertiary -->
+
+            <!-- quaternary -->
+            <section class="main-quaternary relative z-20 over-hidden w-wrapper">
+                <div class="main-quaternary__container w-1290">
+                    <!-- heading -->
+                    <h2 class="heading-primary text-center fw-600 text-blue-08 uppercase">Tin tức</h2>
+                    <!-- end heading -->
+
+                    <!-- content -->
+                     <div class="main-quaternary__content d-3xl-grid col-4 gap-20 mt-30">
+                        <!-- item -->
+                         <div class="article">
+                            <div class="article-content">
+                                <h3 class="article-title fs-20 text-gray-192 lh-130 fw-500">
+                                    <a href="#">Phê duyệt Hiệp định giữa Việt Nam – Hàn Quốc về bảo hiểm xã hội</a>
+                                </h3>
+                                <div class="time-public text-italic text-gray-7a fs-14 mt-16">20/11/2023</div>
+                            </div>
+                         </div>
+                        <!-- end item -->
+                        <!-- item -->
+                         <div class="article">
+                            <div class="article-content">
+                                <h3 class="article-title fs-20 text-gray-192 lh-130 fw-500">
+                                    <a href="#">Hàn Quốc – thị trường xuất khẩu lao động nhiều tiềm năng của Việt Nam</a>
+                                </h3>
+                                <div class="time-public text-italic text-gray-7a fs-14 mt-16">20/11/2023</div>
+                            </div>
+                         </div>
+                        <!-- end item -->
+                        <!-- item -->
+                         <div class="article">
+                            <div class="article-content">
+                                <h3 class="article-title fs-20 text-gray-192 lh-130 fw-500">
+                                    <a href="#">Tránh tình trạng đóng BHXH 2 lần với lao động Việt Nam và Hàn Quốc</a>
+                                </h3>
+                                <div class="time-public text-italic text-gray-7a fs-14 mt-16">20/11/2023</div>
+                            </div>
+                         </div>
+                        <!-- end item -->
+                        <!-- item -->
+                         <div class="article">
+                            <div class="article-content">
+                                <h3 class="article-title fs-20 text-gray-192 lh-130 fw-500">
+                                    <a href="#">Việt Nam 100 triệu người: Tận dụng cơ hội có một không hai</a>
+                                </h3>
+                                <div class="time-public text-italic text-gray-7a fs-14 mt-16">20/11/2023</div>
+                            </div>
+                         </div>
+                        <!-- end item -->
+                     </div>
+                    <!-- end content -->
+                </div>
+             </section>
+            <!-- end quaternary -->
+
+            <!-- quinary -->
+            <section class="main-quinary relative z-20 over-hidden w-wrapper">
+                <div class="main-quinary__container w-1290">
+                    <a href="">
+                        <img src="./images/footer.png" alt="" class="w-full" style="height: auto;">
+                    </a>
+                </div>
+            </section>
+            <!-- end quinary -->
+            
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative px-20 py-10">
+            <p class="footer-text text-center fs-15 text-gray-192">© Hanbook. All Rights reserved. Designer by Digotech.vn</p>
+            <!-- back top -->
+            <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div>
+            <!-- end back top -->
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
