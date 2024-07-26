@@ -100,7 +100,7 @@
         <!-- header -->
         <header id="header" class="header relative js__stickyHeader">
             <!-- pc -->
-            <div class="d-3xl-block d-lg-none w-1290">
+            <div class="header-container w-1290">
                 <div class="header-top d-3xl-flex items-center justify-between">
                     <!-- logo -->
                     <div class="header-logo flex-0">
@@ -204,16 +204,93 @@
                             
                          </ul>
                         <!-- end navbar -->
+
+                        <!-- menu mobile -->
+                        <div class="sub-menu d-3xl-none d-md-block">
+                            <!-- icon bar -->
+                            <div class="icon-bar js__clickShowMenuMb px-15 py-10">
+                                <img src="./images/svg/bar-w.svg" alt="">
+                            </div>
+                            <!-- end icon bar -->
+                            <!-- content -->
+                            <div class="sub-menu__content">
+                                <!-- close -->
+                                <div class="sub-menu__close js__closeSubMenu h-56 p-4 mb-8 d-3xl-flex items-center text-white">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <!-- end close -->
+
+                                <div class="sub-menu__container">
+                                    <!-- list -->
+                                    <div class="sub-menu__list">
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end list -->
+                                </div>
+                            </div>
+                            <!-- end content -->
+                            <div class="overlay js__overlay"></div>
+                        </div>
+                        <!-- end menu mobile -->
                     </div>
                 </div>
             </div>
             <!-- end pc -->
-
-            <!-- mb -->
-            <div class="d-3xl-none d-lg-block">
-               
-            </div>
-            <!-- end mb -->
         </header>
         <!-- end header -->
         <!-- main -->
@@ -590,9 +667,9 @@
         <footer id="footer" class="footer w-wrapper z-20 relative px-20 py-10">
             <p class="footer-text text-center fs-15 text-gray-192">© Hanbook. All Rights reserved. Designer by Digotech.vn</p>
             <!-- back top -->
-            <div id="back-top">
+            <!-- <div id="back-top">
                 <img src="./images/svg/arrow-top-w.svg" alt="">
-            </div>
+            </div> -->
             <!-- end back top -->
         </footer>
         <!-- end footer -->

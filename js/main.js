@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const video169s = document.querySelectorAll(".js__video169");
     // search
     const searchContainer = document.querySelector(".js__searchContainer")
+    // show sub menu
+    const dropdownSubMenu = document.querySelectorAll(".js__dropDown");
+    const subMenu = document.querySelector(".js__clickShowMenuMb");
 
 
     // Xử lý sự kiện khi nhấn nút "back to top"
@@ -36,6 +39,44 @@ document.addEventListener("DOMContentLoaded", function () {
                 searchInput.value = ''
             }
         }
+    }
+    // xử lý sự kiện để show sub menu
+    function handleShowSubMenu() {
+        if (!subMenu) return;
+        var closeSubMenu = document.querySelector(".js__closeSubMenu");
+        var overlay = document.querySelector(".js__overlay");
+        var parentBox = subMenu.parentElement;
+
+        subMenu.onclick = function () {
+            this.parentElement.classList.add("active");
+            document.querySelector("body").style.overflow = "hidden";
+        };
+        closeSubMenu.onclick = function () {
+            parentBox.classList.remove("active");
+            document.querySelector("body").style.overflow = "auto";
+        };
+        overlay.onclick = function () {
+            parentBox.classList.remove("active");
+            document.querySelector("body").style.overflow = "auto";
+        };
+    }
+
+
+    // Xử lý sự kiện để show dropdown submenu
+    function handleShowDropdownSubMenu() {
+        dropdownSubMenu &&
+            dropdownSubMenu.forEach((item) => {
+                var parent = item.parentElement;
+                var nextEle = parent.querySelector(".js__listSubMenu");
+                item.onclick = function () {
+                    parent.classList.toggle("active");
+                    if (nextEle.style.maxHeight) {
+                        nextEle.style.maxHeight = null;
+                    } else {
+                        nextEle.style.maxHeight = nextEle.scrollHeight + "px";
+                    }
+                };
+            });
     }
 
     // Xử lý video tỉ lệ 16:9
@@ -86,6 +127,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Khởi tạo tất cả các chức năng
     function initApp() {
         handleBackTop();
+        handleShowSubMenu();
+        handleShowDropdownSubMenu();
         handleVideo169();
         // scroll
         handleWindowScroll();

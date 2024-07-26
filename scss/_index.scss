@@ -17,6 +17,11 @@
     min-height: max(100vh, 900px);
     padding-top: 15px;
 
+    &__container {
+        position: relative;
+        z-index: 20;
+    }
+
     &__bg-1 {
         position: absolute;
         left: 0;
@@ -203,6 +208,9 @@
         }
 
         .article-content {
+            &__item {
+                flex-shrink: 0;
+            }
             &__icon {
                 width: 52px;
                 height: 52px;

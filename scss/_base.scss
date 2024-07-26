@@ -24,7 +24,7 @@ body {
     text-rendering: geometricPrecision;
     line-height: 1.3;
     color: #000;
-    background-color: #fff;
+    background-color: #fafbfd;
     box-sizing: border-box;
 
     &.hidden {
@@ -60,7 +60,7 @@ a:active,
 a:focus {
     outline: 0;
     color: inherit;
-    color: #fb0505;
+    color: #086cb7;
 }
 
 .link-decoration {
@@ -87,6 +87,10 @@ img {
 }
 .w-full {
     width: 100%;
+}
+.w-750 {
+    max-width: 750px;
+    margin: 0 auto;
 }
 .w-30 {
     width: 30%;
@@ -797,6 +801,13 @@ img {
 .fix-text4 {
     display: -webkit-box;
     -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fix-text5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
