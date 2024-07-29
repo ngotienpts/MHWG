@@ -243,6 +243,10 @@ img {
   width: 40%;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 .w-60 {
   width: 60%;
 }
@@ -253,6 +257,14 @@ img {
 
 .w-70 {
   width: 70%;
+}
+
+.w-74 {
+  width: 74%;
+}
+
+.w-80 {
+  width: 80%;
 }
 
 /*=================================================================*/
@@ -435,6 +447,10 @@ img {
   color: #7a7a7a;
 }
 
+.text-green-009 {
+  color: #009f54;
+}
+
 /*=================================================================*/
 .bg-white {
   background-color: #fff;
@@ -446,6 +462,10 @@ img {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-yellow-f6 {
+  background-color: #f6ad44;
 }
 
 /*=================================================================*/
@@ -1236,6 +1256,10 @@ img {
   font-style: italic;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /*=================================================================*/
 .items-center {
   align-items: center;
@@ -1414,6 +1438,18 @@ img {
   -moz-border-radius: 0.25rem;
   -ms-border-radius: 0.25rem;
   -o-border-radius: 0.25rem;
+}
+
+.border-10 {
+  border-radius: 10px;
+}
+
+.border-green-009 {
+  border: 1px solid #009F54;
+}
+
+.border-3px {
+  border-width: 3px;
 }
 
 .header {
@@ -2068,6 +2104,373 @@ img {
   align-items: center;
   justify-content: center;
   margin: 20px auto 0;
+}
+
+.chapter-primary {
+  background-color: #d3dda4;
+}
+.chapter-primary__content {
+  padding-right: 170px;
+}
+.chapter-primary__heading {
+  font-size: 28px;
+}
+.chapter-primary__heading-inner {
+  border-radius: 0px 0px 100px 0px;
+  padding: 20px 70px 20px 30px;
+  display: inline-block;
+  background-color: #66be77;
+  line-height: 1;
+}
+.chapter-primary__title {
+  font-size: 28px;
+  margin-top: 20px;
+}
+.chapter-primary__img {
+  width: 300px;
+  min-height: 300px;
+  display: flex;
+  background-color: #66be77;
+  padding: 10px;
+}
+.chapter-primary__img img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.chapter-secondary {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.chapter-secondary__left {
+  width: 23%;
+}
+.chapter-secondary__right {
+  padding-left: 40px;
+}
+.chapter-secondary__right .heading {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: #66BE77;
+}
+.chapter-secondary__right p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 130%;
+}
+.chapter-secondary__right em {
+  font-style: italic;
+}
+.chapter-secondary__right strong {
+  font-weight: bold;
+}
+.chapter-secondary__right .heading-one__icon {
+  flex-shrink: 0;
+}
+.chapter-secondary__right .heading-one__icon img {
+  width: 37px;
+  height: auto;
+}
+.chapter-secondary__right .two-item .img {
+  width: 16%;
+  padding: 10px;
+}
+.chapter-secondary__right .two-item .img img {
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__right .three-item .img {
+  width: 20%;
+  padding: 10px;
+}
+.chapter-secondary__right .three-item .img img {
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__right table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: transparent;
+  border: none;
+  table-layout: auto;
+}
+.chapter-secondary__right table .table-head__cell {
+  border-style: solid;
+  border-width: 2px 0 2px 2px;
+  border-color: #009F54;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #192a3d;
+  background-color: #fff;
+}
+.chapter-secondary__right table .table-head__cell--one {
+  border-width: 2px 0 2px 2px;
+  border-top-left-radius: 20px;
+  width: 20%;
+}
+.chapter-secondary__right table .table-head__cell--two {
+  width: 33%;
+}
+.chapter-secondary__right table .table-head__cell--three {
+  width: 24%;
+}
+.chapter-secondary__right table .table-head__cell--four {
+  width: 23%;
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right table .table-head__text {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.chapter-secondary__right table .table-body__row:last-child .table-body__cell--one {
+  border-bottom-left-radius: 20px;
+}
+.chapter-secondary__right table .table-body__row:last-child .table-body__cell--four {
+  border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right table .table-body__text {
+  padding: 10px;
+  font-size: 16px;
+}
+.chapter-secondary__right table .table-body__text ul {
+  padding-left: 15px;
+  list-style: disc;
+}
+.chapter-secondary__right table .table-body__cell {
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+  border-color: #009F54;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #192a3d;
+  background-color: #fff;
+}
+.chapter-secondary__right table .table-body__cell--four {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right table .table-body__img {
+  padding: 10px;
+}
+.chapter-secondary__right .part-two-1 .block-wrapper {
+  background-color: #E2F2E2;
+}
+.chapter-secondary__right .part-two-1 .block-wrapper .des {
+  text-align: justify;
+}
+.chapter-secondary__right .part-two-1__img img {
+  width: 82%;
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__right .part-three-1 .note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 3px solid #F16977;
+  border-radius: 10px;
+  padding: 15px;
+}
+.chapter-secondary__right .part-three-1 .note-img {
+  width: 15%;
+  flex-shrink: 0;
+}
+.chapter-secondary__right .part-three-1 .note-img__inner {
+  width: 70px;
+  height: 70px;
+  border-radius: 999px;
+  background-color: #facfcb;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chapter-secondary__right .part-three-1 .note-img__inner img {
+  width: 12px;
+}
+.chapter-secondary__right .part-three-1 .note-img + .note-des {
+  width: 85%;
+  flex: 1;
+}
+.chapter-secondary__right .part-three-1 .note-des {
+  width: 100%;
+}
+.chapter-secondary__right .part-three-1 .img {
+  height: auto;
+}
+.chapter-secondary__right .part-four-1 .block-wrapper {
+  background-color: #E2F2E2;
+}
+.chapter-secondary__right .part-four-1 .block-wrapper .des {
+  text-align: justify;
+}
+.chapter-secondary__right .part-four-1__img img {
+  height: auto;
+  width: 100%;
+}
+.chapter-secondary__right .part-four-1__img2 {
+  margin-top: -70px;
+}
+.chapter-secondary__right .part-four-1__img2 img {
+  width: 26%;
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__right .part-five-1 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  width: 100%;
+  max-width: 100%;
+}
+.chapter-secondary__right .part-five-1 table .table-head__cell {
+  border-width: 1px;
+  border-color: #192a3d;
+  font-size: 16px;
+  text-align: left;
+}
+.chapter-secondary__right .part-five-1 table .table-head__cell--full {
+  width: 100%;
+}
+.chapter-secondary__right .part-five-1 table .table-head__cell--one {
+  width: 23%;
+}
+.chapter-secondary__right .part-five-1 table .table-head__cell--two {
+  width: 77%;
+}
+.chapter-secondary__right .part-five-1 table .table-body__text,
+.chapter-secondary__right .part-five-1 table .table-body__text {
+  padding: 11px 16px;
+}
+.chapter-secondary__right .part-five-1 table .table-body__cell {
+  border-width: 1px;
+  border-color: #192a3d;
+  font-size: 16px;
+}
+.chapter-secondary__right .part-six-1 .note {
+  display: flex;
+  border: 3px solid #F16977;
+  border-radius: 10px;
+  padding: 15px;
+}
+.chapter-secondary__right .part-six-1 .note-img {
+  width: 15%;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.chapter-secondary__right .part-six-1 .note-img__inner {
+  width: 70px;
+  height: 70px;
+  background-color: #f16977;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chapter-secondary__right .part-six-1 .note-img__inner img {
+  width: 12px;
+}
+.chapter-secondary__right .part-six-1 .note-des {
+  flex: 1;
+}
+.chapter-secondary__right .part-six-1 .note-des p {
+  margin-bottom: 16px;
+}
+.chapter-secondary__right .part-six-1 .note-des p img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: auto;
+}
+.chapter-secondary__right .part-seven-1 .procedure-title {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.chapter-secondary__right .part-seven-1 .procedure-title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 32%;
+  background-color: #009F54;
+}
+.chapter-secondary__right .part-seven-1 .procedure-content {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.chapter-secondary__right .part-seven-1 .procedure-item {
+  width: 33.3333%;
+  padding: 10px;
+}
+.chapter-secondary__right .part-seven-1 .procedure-item--icon {
+  width: 10%;
+}
+.chapter-secondary__right .part-seven-1 .procedure-item .procedure-img img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__tableOfContent .tableOfContent-headingParent {
+  text-decoration: underline;
+}
+.chapter-secondary__tableOfContent .tableOfContent-content {
+  border: 1px solid #bdbdbd;
+  margin-top: 20px;
+}
+.chapter-secondary__tableOfContent .tableOfContent-heading {
+  border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.chapter-secondary__tableOfContent .tableOfContent-title {
+  flex: 1;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.chapter-secondary__tableOfContent .tableOfContent-icon {
+  flex-shrink: 0;
+  width: 15px;
+}
+.chapter-secondary__tableOfContent .tableOfContent-icon .minus {
+  display: none;
+}
+.chapter-secondary__tableOfContent .tableOfContent-icon .plus {
+  display: block;
+}
+.chapter-secondary__tableOfContent .tableOfContent-dropdown {
+  display: none;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.chapter-secondary__tableOfContent .tableOfContent-dropdown__link {
+  padding: 10px 10px 2px;
+  display: block;
+}
+.chapter-secondary__tableOfContent .tableOfContent-item:last-child .tableOfContent-heading {
+  border-bottom: 0;
+}
+.chapter-secondary__tableOfContent .tableOfContent-item.active .plus {
+  display: none;
+}
+.chapter-secondary__tableOfContent .tableOfContent-item.active .minus {
+  display: block;
+}
+.chapter-secondary__tableOfContent .tableOfContent-item.active .tableOfContent-dropdown {
+  display: block;
 }
 
 .detail-content figure {
