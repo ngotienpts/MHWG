@@ -556,9 +556,18 @@
                 &-item {
                     width: 33.3333%;
                     padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    flex: 0 auto 1;
+                    gap: 20px;
 
                     &--icon {
                         width: 10%;
+
+                        img {
+                            width: 45px;
+                            height: auto;
+                        }
                     }
 
                     .procedure-img {
@@ -568,7 +577,106 @@
                             margin: auto;
                         }
                     }
+                    .procedure-icon {
+                        img {
+                            width: auto;
+                            height: 45px;
+                            margin: auto;
+                        }
+                    }
                 }
+            }
+            .note {
+                display: flex;
+                border: 3px solid #F16977;
+                border-radius: 10px;
+                padding: 15px;
+
+                &-img {
+                    width: 15%;
+                    flex-shrink: 0;
+                    padding: 10px;
+
+                    &__inner {
+                        width: 70px;
+                        height: 70px;
+                        background-color: #f16977;
+                        margin: auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            width: 12px;
+                        }
+                    }
+
+                }
+                &-des {
+                    flex: 1;
+                    p {
+                        margin-bottom: 16px;
+                        img {
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 30px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .part-eight-1 {
+            table {
+                .table-head__cell {
+                    &--full {
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        border-width: 2px;
+                    }
+                }
+                .table-head__text {
+                    font-size: 18px;
+                }
+
+                .table-body__cell {
+                    &--two {
+                        border-width: 0 2px 2px 2px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+
+                }
+                
+                .table-body__row {
+                    &:last-child {
+                        .table-body__cell--two {
+                            border-bottom-right-radius: 20px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .part-night-1 {
+        }
+        .img-inline {
+            display: inline-block;
+            vertical-align: middle;
+            width: 30px;
+            height: auto;
+        }
+
+        .question-box {
+            .heading {
+                font-size: 20px;
+            }
+
+            .question-item {
+                margin-top: 20px;
             }
         }
     }
