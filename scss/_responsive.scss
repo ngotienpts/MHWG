@@ -216,6 +216,59 @@
             }
         }
     }
+    .chapter-secondary {
+        display: block;
+        &__left {
+            position: fixed;
+            display: none;
+        }
+
+        &__right {
+            padding-left: 0;
+            width: 100%;
+
+            .heading {
+                font-size: 25px;
+            }
+
+            .heading-one__text {
+                font-size: 22px;
+            }
+
+            .chapter-1__table {
+                white-space: nowrap;
+                overflow: auto;
+            }
+
+            .three-item {
+                &__img1 {
+                    img {
+                        width: 68%;
+                    }
+                }
+                &__img2 {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .text {
+                    padding: 20px;
+                }
+            }
+
+            .two-item {
+                .img {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .case-1 {
+                font-size: 25px;
+            }
+        }
+    }
     // --------------------------------------------------------------------detail
     // --------------------------------------------------------------------footer
 }
@@ -256,6 +309,11 @@
     .cate-primary {
         &__container {
             grid-template-columns: repeat(2,1fr);
+        }
+    }
+    .chapter-primary {
+        &__content {
+            padding-right: 20px;
         }
     }
     
@@ -568,6 +626,153 @@
         .article-title,
         .article-des {
             font-size: 18px;
+        }
+    }
+
+    .chapter-primary {
+        &__container {
+            display: block;
+        }
+
+        &__content {
+            padding: 20px 0;
+        }
+        &__heading {
+            font-size: 25px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+
+    .chapter-secondary {
+        &__right {
+            .heading {
+                padding: 12px 20px;
+                font-size: 20px;
+            }
+
+            .heading-one__text {
+                font-size: 18px;
+            }
+
+            .three-item {
+                .img {
+                    padding: 5px;
+                }
+
+                &__img1 {
+                    img {
+                        width: 100%;
+                    }
+                }
+                 .text {
+                    padding: 10px;
+                    font-size: 16px;
+                    margin: 0;
+                }
+            }
+            p {
+                font-size: 16px;
+            }
+
+            .two-item {
+                align-items: flex-start;
+                .text {
+                    font-size: 16px;
+                }
+                .img {
+                    width: 25%;
+                    padding: 5px;
+                }
+            }
+            .part-three-1 {
+                .note {
+                    display: block;
+
+                    .note-img {
+                        margin-bottom: 10px;
+                        width: 100%;
+                    }
+                }
+                .note-img + .note-des {
+                    width: 100%;
+                }
+            }
+            .case-1 {
+                font-size: 18px;
+                padding: 12px 20px;
+            }
+            .part-four-1 {
+                &__img2 {
+                    margin-top: -26px;
+
+                    img {
+                        width: 68%;
+                    }
+                }
+            }
+
+            .part-six-1 {
+                .note {
+                    display: block
+                }
+                .note-img {
+                    width: 100%;
+                }
+            }
+
+            .part-seven-1 {
+                .procedure-content {
+                    align-items: baseline;
+                }
+                .procedure-title {
+                    font-size: 18px;
+                }
+               .procedure-item {
+                    width: 40%;
+
+                    .procedure-icon img {
+                        height: 30px;
+                    }
+
+                    .procedure-img img {
+                        width: 100%;
+                    }
+                }
+                .procedure-item--icon {
+                    width: 20%;
+
+                     img {
+                        width: 30px;
+                        height: auto;
+                    }
+                }
+                .note {
+                    display: block;
+
+                    .note-img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .part-eight-1 {
+                .content {
+                    .mx-auto.w-60 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .question-box {
+            font-size: 16px;
+            .heading {
+                font-size: 16px;
+            }
         }
     }
     // --------------------------------------------------------------------detail

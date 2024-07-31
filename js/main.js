@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Xử lý thanh header dính
     function handleStickyHeader() {
         if (stickyHeaderPC) {
-            const isSticky = scrollY > 300;
+            const isSticky = scrollY > 100;
             stickyHeaderPC.classList.toggle("sticky", isSticky);
         }
     }
