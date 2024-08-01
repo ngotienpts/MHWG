@@ -237,6 +237,15 @@
         background-color: rgb(8,108,183);
     }
 }
+.chapter-primary--3 {
+    background-color: rgb(102,190,119);
+    .chapter-primary__heading-inner {
+        background-color: rgb(0,159,84);
+    }
+    .chapter-primary__img {
+        background-color: rgb(0,159,84);
+    }
+}
 
 .chapter-secondary {
     padding-top: 30px;
@@ -341,6 +350,25 @@
                 }
             }
         }
+        &.chapter-3 {
+            .heading {
+                background-color: #009F54;
+            }
+            .heading-two {
+                color: #192a3d;
+            }
+            
+            table {
+                p {
+                    margin-bottom: 0;
+                    font-size: 16px;
+                }
+                p + p {
+                    margin-top: 12px;
+                }
+            }
+
+        }
 
         .table-btn {
             color: #fff;
@@ -372,6 +400,14 @@
                     height: auto;
                     margin: auto;
                 }
+            }
+
+            ul {
+                padding-left: 30px;
+                list-style: disc;
+            }
+            p + ul {
+                margin-top: 16px;
             }
         }
         .three-item {

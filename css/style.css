@@ -480,6 +480,10 @@ img {
   background-color: #f6ad44;
 }
 
+.bg-green-ba {
+  background-color: #BAE1BF;
+}
+
 /*=================================================================*/
 .fw-300 {
   font-weight: 300;
@@ -1468,6 +1472,15 @@ img {
   border-width: 3px;
 }
 
+.flip-img {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 .header {
   z-index: 1000;
   padding: 17px 0;
@@ -2165,6 +2178,16 @@ img {
   background-color: #086cb7;
 }
 
+.chapter-primary--3 {
+  background-color: #66be77;
+}
+.chapter-primary--3 .chapter-primary__heading-inner {
+  background-color: #009f54;
+}
+.chapter-primary--3 .chapter-primary__img {
+  background-color: #009f54;
+}
+
 .chapter-secondary {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2250,6 +2273,19 @@ img {
   width: 30px;
   height: auto;
 }
+.chapter-secondary__right.chapter-3 .heading {
+  background-color: #009F54;
+}
+.chapter-secondary__right.chapter-3 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-3 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-3 table p + p {
+  margin-top: 12px;
+}
 .chapter-secondary__right .table-btn {
   color: #fff;
   background-color: #086CB7;
@@ -2276,6 +2312,13 @@ img {
 .chapter-secondary__right .two-item .img img {
   height: auto;
   margin: auto;
+}
+.chapter-secondary__right .two-item ul {
+  padding-left: 30px;
+  list-style: disc;
+}
+.chapter-secondary__right .two-item p + ul {
+  margin-top: 16px;
 }
 .chapter-secondary__right .three-item .img {
   width: 20%;
