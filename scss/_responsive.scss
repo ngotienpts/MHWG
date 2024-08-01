@@ -220,7 +220,33 @@
         display: block;
         &__left {
             position: fixed;
-            display: none;
+            width: auto;
+            top: 90px;
+            left: 0;
+            .chapter-secondary__menuFix {
+                background-color: #0a4595;
+                padding: 8px;
+                color: #fff;
+            }
+
+            .chapter-secondary__menuFixLink {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .chapter-secondary__menuFixIcon {
+                flex-shrink: 0;
+                margin-right: 4px;
+                img {
+                    width: 10px;
+                    height: auto;
+                }
+            }
+            .chapter-secondary__menuFixText {
+                font-size: 10px;
+                color: #fff;
+            }
         }
 
         &__right {
@@ -630,6 +656,7 @@
     }
 
     .chapter-primary {
+        padding-bottom: 20px;
         &__container {
             display: block;
         }
@@ -765,6 +792,15 @@
                     .mx-auto.w-60 {
                         width: 100%;
                     }
+                }
+            }
+
+            &.chapter-2 {
+                .note {
+                    display: block
+                }
+                .note-img {
+                    width: 100%;
                 }
             }
         }
