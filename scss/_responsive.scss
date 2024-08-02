@@ -803,6 +803,32 @@
                     width: 100%;
                 }
             }
+
+            &.chapter-3 {
+                .note {
+                    display: block
+                }
+                .note-img {
+                    width: 100%;
+                }
+
+                .part-four-3 {
+                    .article-img {
+                        width: 100%;
+                    }
+                    .article-text1,
+                    .article-text2,
+                    .article-text3,
+                    .article-text4 {
+                        font-size: 16px;
+                    }
+
+                    .article-img2 {
+                        margin: auto;
+                        width: 60%;
+                    }
+                }
+            }
         }
         .question-box {
             font-size: 16px;

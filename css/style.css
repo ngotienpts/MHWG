@@ -231,6 +231,18 @@ img {
   margin: 0 auto;
 }
 
+.w-10 {
+  width: 10%;
+}
+
+.w-16 {
+  width: 16%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -463,6 +475,10 @@ img {
   color: #009f54;
 }
 
+.text-yellow-f5 {
+  color: #f5ae43;
+}
+
 /*=================================================================*/
 .bg-white {
   background-color: #fff;
@@ -478,6 +494,10 @@ img {
 
 .bg-yellow-f6 {
   background-color: #f6ad44;
+}
+
+.bg-yellow-fb {
+  background-color: #FBF3BC;
 }
 
 .bg-green-ba {
@@ -1468,6 +1488,10 @@ img {
   border: 1px solid #086CB7;
 }
 
+.border-yellow-f5 {
+  border: 1px solid #f5ae43;
+}
+
 .border-3px {
   border-width: 3px;
 }
@@ -2188,6 +2212,56 @@ img {
   background-color: #009f54;
 }
 
+.chapter-primary--4 {
+  background-color: #f6c664;
+}
+.chapter-primary--4 .chapter-primary__heading-inner {
+  background-color: #f9a82f;
+}
+.chapter-primary--4 .chapter-primary__img {
+  background-color: #f9a82f;
+}
+
+.chapter-primary--5 {
+  background-color: #49c8eb;
+}
+.chapter-primary--5 .chapter-primary__heading-inner {
+  background-color: #0c96d4;
+}
+.chapter-primary--5 .chapter-primary__img {
+  background-color: #0c96d4;
+}
+
+.chapter-primary--6 {
+  background-color: #f69f92;
+}
+.chapter-primary--6 .chapter-primary__heading-inner {
+  background-color: #f16977;
+}
+.chapter-primary--6 .chapter-primary__img {
+  background-color: #f16977;
+}
+
+.chapter-primary--7 {
+  background-color: #b398c7;
+}
+.chapter-primary--7 .chapter-primary__heading-inner {
+  background-color: #6751a2;
+}
+.chapter-primary--7 .chapter-primary__img {
+  background-color: #6751a2;
+}
+
+.chapter-primary--8 {
+  background-color: #79a9d6;
+}
+.chapter-primary--8 .chapter-primary__heading-inner {
+  background-color: #1e73be;
+}
+.chapter-primary--8 .chapter-primary__img {
+  background-color: #1e73be;
+}
+
 .chapter-secondary {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2211,11 +2285,61 @@ img {
 .chapter-secondary__right p + p {
   margin-top: 15px;
 }
-.chapter-secondary__right em {
+.chapter-secondary__right em, .chapter-secondary__right i {
   font-style: italic;
 }
 .chapter-secondary__right strong {
   font-weight: bold;
+}
+.chapter-secondary__right .note {
+  display: flex;
+  align-items: center;
+  border: 3px solid #F16977;
+  border-radius: 10px;
+  padding: 15px;
+}
+.chapter-secondary__right .note--secondary {
+  border-color: #086cb7;
+  background-color: #D3E8F2;
+}
+.chapter-secondary__right .note--secondary .note-img__inner {
+  background-color: #086CB7;
+}
+.chapter-secondary__right .note--yellow {
+  border-color: #FBF3BC;
+  background-color: #FBF3BC;
+}
+.chapter-secondary__right .note--yellow .note-img__inner {
+  background-color: #F5AE43;
+}
+.chapter-secondary__right .note-img {
+  width: 15%;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.chapter-secondary__right .note-img__inner {
+  width: 70px;
+  height: 70px;
+  background-color: #f16977;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chapter-secondary__right .note-img__inner img {
+  width: 12px;
+}
+.chapter-secondary__right .note-des {
+  flex: 1;
+}
+.chapter-secondary__right .note-des p {
+  margin-bottom: 16px;
+}
+.chapter-secondary__right .note-des p img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: auto;
 }
 .chapter-secondary__right.chapter-2 .heading {
   background-color: #086cb7;
@@ -2230,49 +2354,6 @@ img {
 .chapter-secondary__right.chapter-2 table p + p {
   margin-top: 12px;
 }
-.chapter-secondary__right.chapter-2 .note {
-  display: flex;
-  align-items: center;
-  border: 3px solid #F16977;
-  border-radius: 10px;
-  padding: 15px;
-}
-.chapter-secondary__right.chapter-2 .note--secondary {
-  border-color: #086cb7;
-  background-color: #D3E8F2;
-}
-.chapter-secondary__right.chapter-2 .note--secondary .note-img__inner {
-  background-color: #086CB7;
-}
-.chapter-secondary__right.chapter-2 .note-img {
-  width: 15%;
-  flex-shrink: 0;
-  padding: 10px;
-}
-.chapter-secondary__right.chapter-2 .note-img__inner {
-  width: 70px;
-  height: 70px;
-  background-color: #f16977;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.chapter-secondary__right.chapter-2 .note-img__inner img {
-  width: 12px;
-}
-.chapter-secondary__right.chapter-2 .note-des {
-  flex: 1;
-}
-.chapter-secondary__right.chapter-2 .note-des p {
-  margin-bottom: 16px;
-}
-.chapter-secondary__right.chapter-2 .note-des p img {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  height: auto;
-}
 .chapter-secondary__right.chapter-3 .heading {
   background-color: #009F54;
 }
@@ -2284,6 +2365,96 @@ img {
   font-size: 16px;
 }
 .chapter-secondary__right.chapter-3 table p + p {
+  margin-top: 12px;
+}
+.chapter-secondary__right.chapter-4 .heading {
+  background-color: #f6c664;
+}
+.chapter-secondary__right.chapter-4 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-4 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-4 table p + p {
+  margin-top: 12px;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-head__cell {
+  border-color: #f5ae43;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-head__cell--one {
+  width: 30%;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-head__cell--two {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-body__cell {
+  border-color: #f5ae43;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-body__cell--two {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right.chapter-4 .table-2-col--yellow .table-body__row:last-child .table-body__cell--two {
+  border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-4 .table-4-col--yellow .table-head__cell {
+  border-color: #f5ae43;
+}
+.chapter-secondary__right.chapter-4 .table-4-col--yellow .table-body__cell {
+  border-color: #f5ae43;
+}
+.chapter-secondary__right.chapter-5 .heading {
+  background-color: #009F54;
+}
+.chapter-secondary__right.chapter-5 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-5 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-5 table p + p {
+  margin-top: 12px;
+}
+.chapter-secondary__right.chapter-6 .heading {
+  background-color: #009F54;
+}
+.chapter-secondary__right.chapter-6 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-6 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-6 table p + p {
+  margin-top: 12px;
+}
+.chapter-secondary__right.chapter-7 .heading {
+  background-color: #009F54;
+}
+.chapter-secondary__right.chapter-7 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-7 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-7 table p + p {
+  margin-top: 12px;
+}
+.chapter-secondary__right.chapter-8 .heading {
+  background-color: #009F54;
+}
+.chapter-secondary__right.chapter-8 .heading-two {
+  color: #192a3d;
+}
+.chapter-secondary__right.chapter-8 table p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.chapter-secondary__right.chapter-8 table p + p {
   margin-top: 12px;
 }
 .chapter-secondary__right .table-btn {
@@ -2301,6 +2472,10 @@ img {
 .chapter-secondary__right .heading-one__icon img {
   width: 37px;
   height: auto;
+}
+.chapter-secondary__right .one-item {
+  padding: 15px;
+  border-radius: 10px;
 }
 .chapter-secondary__right .two-item .img {
   width: 16%;
@@ -2429,6 +2604,10 @@ img {
 }
 .chapter-secondary__right .table-2-col .table-body__row:last-child .table-body__cell--one {
   border-bottom-left-radius: 0;
+}
+.chapter-secondary__right .table-green .table-body__cell {
+  border-width: 3px;
+  border-color: #009F54;
 }
 .chapter-secondary__right .part-two-1 .block-wrapper {
   background-color: #E2F2E2;
@@ -2785,6 +2964,88 @@ img {
 }
 .chapter-secondary__right .part-elven-2 .table-img img {
   width: 126px;
+  height: auto;
+}
+.chapter-secondary__right .part-one-4 .article-img .article-img1 img {
+  height: auto;
+}
+.chapter-secondary__right .part-one-4 .article-img .article-img2 img {
+  margin-left: auto;
+  height: auto;
+}
+.chapter-secondary__right .part-two-4 .article-img img {
+  height: auto;
+}
+.chapter-secondary__right .part-three-4 .article-img img {
+  height: auto;
+}
+.chapter-secondary__right .part-seven-4 .diagram {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 40px;
+}
+.chapter-secondary__right .part-seven-4 .diagram-item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+}
+.chapter-secondary__right .part-seven-4 .diagram-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-secondary__right .part-seven-4 .diagram-icon {
+  width: 10%;
+  display: flex;
+}
+.chapter-secondary__right .part-seven-4 .diagram-icon img {
+  width: 50px;
+  height: auto;
+  margin: auto;
+}
+.chapter-secondary__right .part-seven-4 .diagram-icon-inline img {
+  height: 50px;
+  width: auto;
+  margin: auto;
+}
+.chapter-secondary__right .part-eight-4 .article-content {
+  border: 2px solid #f5ae43;
+  border-radius: 20px;
+}
+.chapter-secondary__right .part-eight-4 .article-item {
+  border-right: 2px solid #f5ae43;
+}
+.chapter-secondary__right .part-eight-4 .article-item:last-child {
+  border-right: 0;
+}
+.chapter-secondary__right .part-eight-4 .article-item__text {
+  padding: 10px;
+  border-bottom: 2px solid #f5ae43;
+}
+.chapter-secondary__right .part-eight-4 .article-item__qr {
+  padding: 10px;
+}
+.chapter-secondary__right .part-eight-4 .article-item__qr img {
+  width: 100%;
+  height: auto;
+}
+.chapter-secondary__right .part-thirteen-4 .article-content__item {
+  font-size: 20px;
+}
+.chapter-secondary__right .part-thirteen-4 .article-content__icon img {
+  width: 16px;
+  height: auto;
+}
+.chapter-secondary__right .part-thirteen-4 .article-content__qr {
+  margin-top: 20px;
+  width: 22%;
+  height: auto;
+}
+.chapter-secondary__right .part-thirteen-4 .article-img img {
+  width: 100%;
   height: auto;
 }
 .chapter-secondary__tableOfContent .tableOfContent-headingParent {
@@ -3692,6 +3953,25 @@ img {
   }
   .chapter-secondary__right.chapter-2 .note-img {
     width: 100%;
+  }
+  .chapter-secondary__right.chapter-3 .note {
+    display: block;
+  }
+  .chapter-secondary__right.chapter-3 .note-img {
+    width: 100%;
+  }
+  .chapter-secondary__right.chapter-3 .part-four-3 .article-img {
+    width: 100%;
+  }
+  .chapter-secondary__right.chapter-3 .part-four-3 .article-text1,
+.chapter-secondary__right.chapter-3 .part-four-3 .article-text2,
+.chapter-secondary__right.chapter-3 .part-four-3 .article-text3,
+.chapter-secondary__right.chapter-3 .part-four-3 .article-text4 {
+    font-size: 16px;
+  }
+  .chapter-secondary__right.chapter-3 .part-four-3 .article-img2 {
+    margin: auto;
+    width: 60%;
   }
   .chapter-secondary .question-box {
     font-size: 16px;
