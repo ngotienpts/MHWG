@@ -977,6 +977,33 @@
                     }
                 }
             }
+
+            // chuong 6
+            .part-one-6 {
+                .two-item-2 {
+                    flex-direction: column;
+
+                    .text {
+                        order: 2;
+                    }
+
+                    .img {
+                        order: 1;
+                        width: 100%;
+                        img {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+
+            .part-thirteen-6 {
+                table {
+                    .table-body__cell {
+                        min-width: 200px;
+                    }
+                }
+            }
         }
         .question-box {
             font-size: 16px;

@@ -243,6 +243,10 @@ img {
   width: 20%;
 }
 
+.w-25 {
+  width: 25%;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -2465,7 +2469,7 @@ img {
   background-color: #f16977;
 }
 .chapter-secondary__right.chapter-6 .heading-two {
-  color: #192a3d;
+  color: #f16977;
 }
 .chapter-secondary__right.chapter-6 table p {
   margin-bottom: 0;
@@ -2473,6 +2477,10 @@ img {
 }
 .chapter-secondary__right.chapter-6 table p + p {
   margin-top: 12px;
+}
+.chapter-secondary__right.chapter-6 table.fs-18 .table-body__text, .chapter-secondary__right.chapter-6 table.fs-18 p,
+.chapter-secondary__right.chapter-6 table.fs-18 .table-head__text {
+  font-size: 18px;
 }
 .chapter-secondary__right.chapter-6 .table-2-col--pink .table-head__cell {
   border-color: #f16977;
@@ -2492,6 +2500,18 @@ img {
 }
 .chapter-secondary__right.chapter-6 .table-2-col--pink .table-body__row:last-child .table-body__cell--two {
   border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--merge .table-head__cell--one {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pinkNotThead .table-body__row:first-child .table-body__cell--one {
+  border-width: 2px 0 2px 2px;
+  border-top-left-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pinkNotThead .table-body__row:first-child .table-body__cell--two {
+  border-width: 2px;
+  border-top-right-radius: 20px;
 }
 .chapter-secondary__right.chapter-6 .table-3-col--pink .table-head__cell {
   border-color: #f16977;
@@ -3188,6 +3208,15 @@ img {
 }
 .chapter-secondary__right .part-five-5 .article-table .article-right .article-table__item:last-child {
   margin-bottom: 0;
+}
+.chapter-secondary__right .part-eight-6 .two-item .text-itemCenter p {
+  text-align: center !important;
+}
+.chapter-secondary__right .part-eight-6 .two-item .text-itemCenter img {
+  margin: auto;
+}
+.chapter-secondary__right .part-eight-6 .two-item .text-itemCenter div {
+  margin-top: 16px;
 }
 .chapter-secondary__tableOfContent .tableOfContent-headingParent {
   text-decoration: underline;
@@ -4204,6 +4233,22 @@ img {
   .chapter-secondary__right .part-five-5 .article-table .article-left {
     border: 0;
     border-bottom: 3px solid #49c8eb;
+  }
+  .chapter-secondary__right .part-one-6 .two-item-2 {
+    flex-direction: column;
+  }
+  .chapter-secondary__right .part-one-6 .two-item-2 .text {
+    order: 2;
+  }
+  .chapter-secondary__right .part-one-6 .two-item-2 .img {
+    order: 1;
+    width: 100%;
+  }
+  .chapter-secondary__right .part-one-6 .two-item-2 .img img {
+    width: 60%;
+  }
+  .chapter-secondary__right .part-thirteen-6 table .table-body__cell {
+    min-width: 200px;
   }
   .chapter-secondary .question-box {
     font-size: 16px;
