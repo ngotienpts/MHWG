@@ -479,6 +479,14 @@ img {
   color: #f5ae43;
 }
 
+.text-cyan-49 {
+  color: #49c8eb;
+}
+
+.text-pink-f1 {
+  color: #f16977;
+}
+
 /*=================================================================*/
 .bg-white {
   background-color: #fff;
@@ -502,6 +510,14 @@ img {
 
 .bg-green-ba {
   background-color: #BAE1BF;
+}
+
+.bg-cyan-49 {
+  background-color: #49c8eb;
+}
+
+.bg-pink-f1 {
+  background-color: #f16977;
 }
 
 /*=================================================================*/
@@ -1492,6 +1508,14 @@ img {
   border: 1px solid #f5ae43;
 }
 
+.border-cyan-49 {
+  border: 1px solid #49c8eb;
+}
+
+.border-pink-f1 {
+  border: 1px solid #f16977;
+}
+
 .border-3px {
   border-width: 3px;
 }
@@ -2418,8 +2442,27 @@ img {
 .chapter-secondary__right.chapter-5 table p + p {
   margin-top: 12px;
 }
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-head__cell {
+  border-color: #49c8eb;
+}
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-head__cell--one {
+  width: 30%;
+}
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-head__cell--two {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-body__cell {
+  border-color: #49c8eb;
+}
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-body__cell--two {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right.chapter-5 .table-2-col--yellow .table-body__row:last-child .table-body__cell--two {
+  border-bottom-right-radius: 20px;
+}
 .chapter-secondary__right.chapter-6 .heading {
-  background-color: #009F54;
+  background-color: #f16977;
 }
 .chapter-secondary__right.chapter-6 .heading-two {
   color: #192a3d;
@@ -2431,8 +2474,49 @@ img {
 .chapter-secondary__right.chapter-6 table p + p {
   margin-top: 12px;
 }
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-head__cell {
+  border-color: #f16977;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-head__cell--one {
+  width: 30%;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-head__cell--two {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-body__cell {
+  border-color: #f16977;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-body__cell--two {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right.chapter-6 .table-2-col--pink .table-body__row:last-child .table-body__cell--two {
+  border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-3-col--pink .table-head__cell {
+  border-color: #f16977;
+}
+.chapter-secondary__right.chapter-6 .table-3-col--pink .table-head__cell--three {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-3-col--pink .table-body__cell {
+  border-color: #f16977;
+}
+.chapter-secondary__right.chapter-6 .table-3-col--pink .table-body__cell--three {
+  border-width: 0 2px 2px 2px;
+}
+.chapter-secondary__right.chapter-6 .table-3-col--pink .table-body__row:last-child .table-body__cell--three {
+  border-bottom-right-radius: 20px;
+}
+.chapter-secondary__right.chapter-6 .table-4-col--pink .table-head__cell {
+  border-color: #f16977;
+}
+.chapter-secondary__right.chapter-6 .table-4-col--pink .table-body__cell {
+  border-color: #f16977;
+}
 .chapter-secondary__right.chapter-7 .heading {
-  background-color: #009F54;
+  background-color: #6751a2;
 }
 .chapter-secondary__right.chapter-7 .heading-two {
   color: #192a3d;
@@ -2445,7 +2529,7 @@ img {
   margin-top: 12px;
 }
 .chapter-secondary__right.chapter-8 .heading {
-  background-color: #009F54;
+  background-color: #1e73de;
 }
 .chapter-secondary__right.chapter-8 .heading-two {
   color: #192a3d;
@@ -2494,6 +2578,9 @@ img {
 }
 .chapter-secondary__right .two-item p + ul {
   margin-top: 16px;
+}
+.chapter-secondary__right .two-item-2 .img {
+  width: 30%;
 }
 .chapter-secondary__right .three-item .img {
   width: 20%;
@@ -2946,16 +3033,16 @@ img {
 .chapter-secondary__right .part-five-2 table .table-body__row:last-child .table-body__cell--two {
   border-bottom-right-radius: 20px;
 }
-.chapter-secondary__right .part-night-2 .table-grid .table-body__row .table-body__text {
+.chapter-secondary__right .part-nine-2 .table-grid .table-body__row .table-body__text {
   text-align: center;
 }
-.chapter-secondary__right .part-night-2 .table-grid .table-body__row-one .table-body__cell--one {
+.chapter-secondary__right .part-nine-2 .table-grid .table-body__row-one .table-body__cell--one {
   width: 20%;
 }
-.chapter-secondary__right .part-night-2 .table-grid .table-body__row-one .table-body__cell--three {
+.chapter-secondary__right .part-nine-2 .table-grid .table-body__row-one .table-body__cell--three {
   width: 20%;
 }
-.chapter-secondary__right .part-night-2 .table-grid .table-body__row-one .table-body__cell--three .table-body__text {
+.chapter-secondary__right .part-nine-2 .table-grid .table-body__row-one .table-body__cell--three .table-body__text {
   font-weight: bold;
 }
 .chapter-secondary__right .part-elven-2 .table-link {
@@ -3047,6 +3134,60 @@ img {
 .chapter-secondary__right .part-thirteen-4 .article-img img {
   width: 100%;
   height: auto;
+}
+.chapter-secondary__right .part-seventeen-4 table .table-body__text {
+  padding: 10px;
+  font-size: 18px;
+}
+.chapter-secondary__right .part-seventeen-4 table p {
+  text-align: left;
+  font-size: 18px;
+}
+.chapter-secondary__right .part-twenty-one-4 table .table-body__row .table-body__cell--one {
+  width: 30%;
+}
+.chapter-secondary__right .part-twenty-one-4 table .table-body__row:first-child .table-body__cell {
+  border-color: #f5ae43;
+}
+.chapter-secondary__right .part-twenty-one-4 table .table-body__row:first-child .table-body__cell--one {
+  border-width: 2px 0 2px 2px;
+  border-top-left-radius: 20px;
+}
+.chapter-secondary__right .part-twenty-one-4 table .table-body__row:first-child .table-body__cell--two {
+  border-width: 2px;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right .part-twenty-two-4 .article-content__item {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.chapter-secondary__right .part-twenty-two-4 .article-content__icon img {
+  width: 16px;
+  height: auto;
+}
+.chapter-secondary__right .part-twenty-two-4 .article-content__qr {
+  margin-top: 20px;
+  width: 22%;
+  height: auto;
+}
+.chapter-secondary__right .part-twenty-two-4 .article-img img {
+  width: 100%;
+  height: auto;
+}
+.chapter-secondary__right .part-five-5 .article-table {
+  align-items: stretch;
+}
+.chapter-secondary__right .part-five-5 .article-table .article-left {
+  border-right: 3px solid #49c8eb;
+}
+.chapter-secondary__right .part-five-5 .article-table .article-right .article-table__item {
+  margin-bottom: 20px;
+}
+.chapter-secondary__right .part-five-5 .article-table .article-right .article-table__item p + p {
+  margin-top: 5px;
+}
+.chapter-secondary__right .part-five-5 .article-table .article-right .article-table__item:last-child {
+  margin-bottom: 0;
 }
 .chapter-secondary__tableOfContent .tableOfContent-headingParent {
   text-decoration: underline;
@@ -3948,10 +4089,10 @@ img {
   .chapter-secondary__right .part-eight-1 .content .mx-auto.w-60 {
     width: 100%;
   }
-  .chapter-secondary__right.chapter-2 .note {
+  .chapter-secondary__right .note {
     display: block;
   }
-  .chapter-secondary__right.chapter-2 .note-img {
+  .chapter-secondary__right .note-img {
     width: 100%;
   }
   .chapter-secondary__right.chapter-3 .note {
@@ -3972,6 +4113,97 @@ img {
   .chapter-secondary__right.chapter-3 .part-four-3 .article-img2 {
     margin: auto;
     width: 60%;
+  }
+  .chapter-secondary__right .part-one-4 .article-img1,
+.chapter-secondary__right .part-one-4 .article-img2 {
+    margin-top: 20px;
+  }
+  .chapter-secondary__right .part-one-4 .article-img1 img,
+.chapter-secondary__right .part-one-4 .article-img2 img {
+    width: 100%;
+  }
+  .chapter-secondary__right .part-two-4 .article-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .chapter-secondary__right .part-two-4 .article-img img {
+    width: 100%;
+  }
+  .chapter-secondary__right .part-three-4 .article-img {
+    width: 100%;
+  }
+  .chapter-secondary__right .part-seven-4 .two-item .article-img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram {
+    grid-gap: 0;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram-item {
+    margin-bottom: 20px;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram-text {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram-icon {
+    margin: 10px;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram-icon img {
+    width: 30px;
+  }
+  .chapter-secondary__right .part-seven-4 .diagram-icon-inline img {
+    height: 30px;
+  }
+  .chapter-secondary__right .part-eight-4 .article {
+    display: block;
+  }
+  .chapter-secondary__right .part-eight-4 .article-img {
+    width: 50%;
+    margin: auto;
+  }
+  .chapter-secondary__right .part-thirteen-4 .article {
+    flex-direction: column;
+  }
+  .chapter-secondary__right .part-thirteen-4 .article .article-img {
+    order: 1;
+    width: 50%;
+    margin: auto;
+  }
+  .chapter-secondary__right .part-thirteen-4 .article .article-content {
+    order: 2;
+  }
+  .chapter-secondary__right .part-thirteen-4 .article .article-content__qr {
+    width: 100%;
+  }
+  .chapter-secondary__right .part-sixteen-4 .article-img1 img {
+    width: 100%;
+  }
+  .chapter-secondary__right .block-img img {
+    width: 75%;
+  }
+  .chapter-secondary__right .part-eighteen-4 table .article-img1 img {
+    width: 120px;
+    height: auto;
+  }
+  .chapter-secondary__right .part-twenty-one-4 .article {
+    flex-direction: column;
+  }
+  .chapter-secondary__right .part-twenty-one-4 .article .article-img {
+    width: 80%;
+  }
+  .chapter-secondary__right .part-twenty-two-4 .article-btn {
+    font-size: 16px;
+  }
+  .chapter-secondary__right .part-two-5 table .table-head__cell {
+    min-width: 200px;
+  }
+  .chapter-secondary__right .part-five-5 .article-table {
+    display: block;
+  }
+  .chapter-secondary__right .part-five-5 .article-table .article-left {
+    border: 0;
+    border-bottom: 3px solid #49c8eb;
   }
   .chapter-secondary .question-box {
     font-size: 16px;

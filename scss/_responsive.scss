@@ -795,13 +795,13 @@
                 }
             }
 
+            .note {
+                display: block
+            }
+            .note-img {
+                width: 100%;
+            }
             &.chapter-2 {
-                .note {
-                    display: block
-                }
-                .note-img {
-                    width: 100%;
-                }
             }
 
             &.chapter-3 {
@@ -826,6 +826,154 @@
                     .article-img2 {
                         margin: auto;
                         width: 60%;
+                    }
+                }
+            }
+
+            // chuong 4
+            .part-one-4 {
+                .article-img1,
+                .article-img2 {
+                    margin-top: 20px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .part-two-4 {
+                .article-img {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .part-three-4 {
+                .article-img {
+                    width: 100%;
+                }
+            }
+
+            .part-seven-4 {
+                .two-item {
+                    .article-img {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+                .diagram {
+                    grid-gap: 0;
+                }
+                .diagram-item {
+                    margin-bottom: 20px;
+                }
+                .diagram-text {
+                    font-size: 16px;
+                    padding: 10px;
+                }
+                .diagram-icon {
+                    margin: 10px;
+                }
+                .diagram-icon img {
+                    width: 30px;
+                }
+                .diagram-icon-inline img {
+                    height: 30px;
+                }
+            }
+
+            .part-eight-4 {
+                .article {
+                    display: block;
+                }
+                .article-img {
+                    width: 50%;
+                    margin: auto;
+                }
+            }
+
+            .part-thirteen-4 {
+                .article {
+                    flex-direction: column;
+
+                    .article-img {
+                        order: 1;
+                        width: 50%;
+                        margin: auto;
+                    }
+
+                    .article-content {
+                        order: 2;
+
+                        &__qr {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .part-sixteen-4 {
+                .article-img1 {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .block-img {
+                img {
+                    width: 75%;
+                }
+            }
+
+            .part-eighteen-4 {
+                table {
+                    .article-img1 {
+                        img {
+                            width: 120px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            .part-twenty-one-4 {
+                .article {
+                    flex-direction: column;
+
+                    .article-img {
+                        width: 80%;
+                    }
+                }
+            }
+
+            .part-twenty-two-4 {
+                .article-btn {
+                    font-size: 16px;
+                }
+            }
+
+            // chuong 5
+
+            .part-two-5 {
+                table {
+                    .table-head__cell {
+                        min-width: 200px;
+                    }
+                }
+            }
+
+            .part-five-5 {
+                .article-table {
+                    display: block;
+
+                    .article-left {
+                        border: 0;
+                        border-bottom: 3px solid #49c8eb;
                     }
                 }
             }

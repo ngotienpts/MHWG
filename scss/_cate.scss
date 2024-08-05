@@ -499,12 +499,42 @@
                 p + p {
                     margin-top: 12px;
                 }
+
+                
+            }
+            .table-2-col--yellow {
+                .table-head__cell{
+                    border-color: #49c8eb;
+                    &--one {
+                        width: 30%;
+                    }
+                    &--two {
+                        border-width: 2px;
+                        border-top-right-radius: 20px;
+                    }
+                }
+                .table-body__cell {
+                    border-color: #49c8eb;
+
+                    &--two {
+                        border-width: 0 2px 2px 2px;
+                    }
+
+                }
+                
+                .table-body__row {
+                    &:last-child {
+                        .table-body__cell--two {
+                            border-bottom-right-radius: 20px;
+                        }
+                    }
+                }
             }
 
         }
         &.chapter-6 {
             .heading {
-                background-color: #009F54;
+                background-color: #f16977;
             }
             .heading-two {
                 color: #192a3d;
@@ -520,10 +550,75 @@
                 }
             }
 
+            .table-2-col--pink {
+                .table-head__cell{
+                    border-color: #f16977;
+                    &--one {
+                        width: 30%;
+                    }
+                    &--two {
+                        border-width: 2px;
+                        border-top-right-radius: 20px;
+                    }
+                }
+                .table-body__cell {
+                    border-color: #f16977;
+
+                    &--two {
+                        border-width: 0 2px 2px 2px;
+                    }
+
+                }
+                
+                .table-body__row {
+                    &:last-child {
+                        .table-body__cell--two {
+                            border-bottom-right-radius: 20px;
+                        }
+                    }
+                }
+            }
+            .table-3-col--pink {
+                .table-head__cell{
+                    border-color: #f16977;
+                    &--three {
+                        border-width: 2px;
+                        border-top-right-radius: 20px;
+                    }
+                }
+                .table-body__cell {
+                    border-color: #f16977;
+
+                    &--three{
+                        border-width: 0 2px 2px 2px;
+                    }
+
+                }
+                
+                .table-body__row {
+                    &:last-child {
+                        .table-body__cell--three {
+                            border-bottom-right-radius: 20px;
+                        }
+                    }
+                }
+            }
+            .table-4-col--pink {
+                .table-head__cell{
+                    border-color: #f16977;
+                    
+                }
+                .table-body__cell {
+                    border-color: #f16977;
+
+                }
+                
+            }
+
         }
         &.chapter-7 {
             .heading {
-                background-color: #009F54;
+                background-color: #6751a2;
             }
             .heading-two {
                 color: #192a3d;
@@ -542,7 +637,7 @@
         }
         &.chapter-8 {
             .heading {
-                background-color: #009F54;
+                background-color: #1e73de;
             }
             .heading-two {
                 color: #192a3d;
@@ -601,6 +696,12 @@
             }
             p + ul {
                 margin-top: 16px;
+            }
+
+            &-2 {
+                .img {
+                    width: 30%;
+                }
             }
         }
         .three-item {
@@ -1038,7 +1139,7 @@
             }
         }
 
-        .part-night-1 {
+        .part-nine-1 {
         }
         .img-inline {
             display: inline-block;
@@ -1192,7 +1293,7 @@
 
         }
 
-        .part-night-2 {
+        .part-nine-2 {
             .table-grid {
                 .table-body__row {
                     .table-body__text {
@@ -1355,6 +1456,98 @@
                 img {
                     width: 100%;
                     height: auto;
+                }
+            }
+        }
+
+        .part-seventeen-4 {
+            table {
+                .table-body__text {
+                    padding: 10px;
+                    font-size: 18px;
+                }
+                 p {
+                    text-align: left;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .part-twenty-one-4 {
+            table {
+                .table-body__row {
+                    .table-body__cell {
+                        &--one {
+                            width: 30%;
+                        }
+                    }
+                    &:first-child {
+                        .table-body__cell {
+                            border-color: #f5ae43;
+                            &--one {
+                                border-width: 2px 0 2px 2px;
+                                border-top-left-radius: 20px;
+
+                            }
+                            &--two {
+                                border-width: 2px;
+                                border-top-right-radius: 20px; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .part-twenty-two-4 {
+            .article-content {
+                &__item {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                &__icon {
+                    img {
+                        width: 16px;
+                        height: auto;
+                    }
+                }
+
+                &__qr {
+                    margin-top: 20px;
+                    width: 22%;
+                    height: auto;
+                }
+            }
+
+            .article-img {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        // chuong 5
+
+        .part-five-5 {
+            .article-table {
+                align-items: stretch;
+                .article-left {
+                    border-right: 3px solid #49c8eb;
+                }
+
+                .article-right {
+                    .article-table__item {
+                        margin-bottom: 20px;
+
+                        p + p {
+                            margin-top: 5px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
                 }
             }
         }
