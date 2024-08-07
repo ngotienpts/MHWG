@@ -342,6 +342,29 @@
             padding-right: 20px;
         }
     }
+
+    .question-primary {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__container {
+            display: block;
+        }
+
+        &__left {
+            width: 100%;
+            padding: 10px;
+        }
+        &__right {
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+
+    .detail-secondary {
+        &__container {
+            padding: 20px;
+        }
+    }
     
 }
 // max width 768px
@@ -1025,6 +1048,29 @@
             font-size: 16px;
             .heading {
                 font-size: 16px;
+            }
+        }
+    }
+    .search-primary {
+
+        &__form {
+            .search-btn {
+                width: 15px;
+            }
+            .search-input {
+                height: 40px;
+                font-size: 15px;
+            }
+        }
+        .result-item {
+            &__link1 {
+                font-size: 16px;
+            }
+            &__link2 {
+                font-size: 18px;
+            }
+            &__link3 {
+                font-size: 13px;
             }
         }
     }

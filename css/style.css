@@ -3404,6 +3404,233 @@ img {
   display: block;
 }
 
+.search-primary {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.search-primary__form {
+  max-width: 490px;
+  width: 100%;
+  margin: 20px auto;
+}
+.search-primary__form .search-input {
+  height: 52px;
+  border: 1px solid #d6d6d6;
+  background-color: #fff;
+  border-radius: 999px;
+  padding: 12px 20px 12px 50px;
+  font-size: 21px;
+}
+.search-primary__form .search-input::placeholder {
+  color: #999;
+}
+.search-primary__form .search-input:focus {
+  border-color: #F16977;
+  color: #F16977;
+}
+.search-primary__form .search-input:focus::placeholder {
+  color: #F16977;
+}
+.search-primary__form .search-input:focus ~ .search-btn {
+  color: #F16977;
+}
+.search-primary__form .search-btn {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 20px;
+  color: #666;
+}
+.search-primary .result-list {
+  padding-top: 20px;
+  border-top: 1px solid #d3d3d3;
+}
+.search-primary .result-item {
+  border: 1px solid #e1e5eb;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.search-primary .result-item__link1 {
+  font-size: 20px;
+  color: #192a3d;
+}
+.search-primary .result-item__bot {
+  margin-top: 10px;
+}
+.search-primary .result-item__link2, .search-primary .result-item__link3 {
+  display: flex;
+  align-items: center;
+}
+.search-primary .result-item__link2:hover .text {
+  color: #086cb7;
+}
+.search-primary .result-item__link2 .text {
+  display: inline-block;
+  color: #ed1c24;
+  font-style: italic;
+  flex: 1;
+}
+.search-primary .result-item__link2 .icon {
+  width: 15px;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+.search-primary .result-item__link3 {
+  background-color: #086CB7;
+  border-radius: 3px;
+  padding: 8px 15px 6px;
+  font-size: 15px;
+}
+.search-primary .result-item__link3 .text {
+  display: inline-block;
+  color: #fff;
+  flex: 1;
+}
+.search-primary .result-item__link3 .icon {
+  width: 15px;
+  flex-shrink: 0;
+  margin-left: 5px;
+  fill: #fff;
+}
+
+.question-primary {
+  padding-top: 50px;
+}
+.question-primary__container {
+  display: flex;
+  grid-gap: 40px;
+}
+.question-primary__left {
+  width: 70%;
+  padding: 20px;
+  background-color: #fff;
+}
+.question-primary__left .content h2 {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: #66BE77;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.question-primary__left .content h3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 50px;
+  margin-bottom: 16px;
+  color: #009F54;
+  position: relative;
+}
+.question-primary__left .content h3::before {
+  content: "";
+  background-image: url("../images/bong-den.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 37px;
+  height: 56px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.question-primary__left .content h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.question-primary__left .content h5, .question-primary__left .content h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.question-primary__left .content p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.question-primary__left .content table {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.question-primary__left .content table th, .question-primary__left .content table td {
+  border: 2px solid #009F54;
+  padding: 10px;
+}
+.question-primary__left .content a {
+  color: #103dc4;
+  text-decoration: underline;
+}
+.question-primary__left .content.chapter-2 h2 {
+  background-color: #086cb7;
+}
+.question-primary__left .content.chapter-2 h3 {
+  color: #086cb7;
+}
+.question-primary__left .content.chapter-2 table th, .question-primary__left .content.chapter-2 table td {
+  border-color: #086cb7;
+}
+.question-primary__left .content.chapter-3 h2 {
+  background-color: #009F54;
+}
+.question-primary__left .content.chapter-3 h3 {
+  color: #009F54;
+}
+.question-primary__left .content.chapter-3 table th, .question-primary__left .content.chapter-3 table td {
+  border-color: #009F54;
+}
+.question-primary__left .content.chapter-4 h2 {
+  background-color: #f5ae43;
+}
+.question-primary__left .content.chapter-4 h3 {
+  color: #f5ae43;
+}
+.question-primary__left .content.chapter-4 table th, .question-primary__left .content.chapter-4 table td {
+  border-color: #f5ae43;
+}
+.question-primary__left .content.chapter-5 h2 {
+  background-color: #49c8eb;
+}
+.question-primary__left .content.chapter-5 h3 {
+  color: #49c8eb;
+}
+.question-primary__left .content.chapter-5 table th, .question-primary__left .content.chapter-5 table td {
+  border-color: #49c8eb;
+}
+.question-primary__left .content.chapter-6 h2 {
+  background-color: #f16977;
+}
+.question-primary__left .content.chapter-6 h3 {
+  color: #f16977;
+}
+.question-primary__left .content.chapter-6 table th, .question-primary__left .content.chapter-6 table td {
+  border-color: #f16977;
+}
+.question-primary__left .content.chapter-7 h2 {
+  background-color: #6751a2;
+}
+.question-primary__left .content.chapter-7 h3 {
+  color: #6751a2;
+}
+.question-primary__left .content.chapter-7 table th, .question-primary__left .content.chapter-7 table td {
+  border-color: #6751a2;
+}
+.question-primary__right {
+  width: 30%;
+}
+.question-primary__right .item {
+  border: 1px solid #E4E4E4;
+  margin-bottom: 10px;
+}
+.question-primary__right .link {
+  display: block;
+}
+
+.question-secondary {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
 .detail-content figure {
   margin-bottom: 1.25rem;
 }
@@ -3863,6 +4090,26 @@ img {
 
   .chapter-primary__content {
     padding-right: 20px;
+  }
+
+  .question-primary {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .question-primary__container {
+    display: block;
+  }
+  .question-primary__left {
+    width: 100%;
+    padding: 10px;
+  }
+  .question-primary__right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .detail-secondary__container {
+    padding: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -4397,6 +4644,23 @@ img {
   }
   .chapter-secondary .question-box .heading {
     font-size: 16px;
+  }
+
+  .search-primary__form .search-btn {
+    width: 15px;
+  }
+  .search-primary__form .search-input {
+    height: 40px;
+    font-size: 15px;
+  }
+  .search-primary .result-item__link1 {
+    font-size: 16px;
+  }
+  .search-primary .result-item__link2 {
+    font-size: 18px;
+  }
+  .search-primary .result-item__link3 {
+    font-size: 13px;
   }
 
   .detail-primary .sapo,
