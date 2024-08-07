@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const dropdownSubMenu = document.querySelectorAll(".js__dropDown");
     const subMenu = document.querySelector(".js__clickShowMenuMb");
 
+    const tableOfContents = document.querySelectorAll(".js__tableOfContentItem");
+
 
     // Xử lý sự kiện khi nhấn nút "back to top"
     function handleBackTop() {
@@ -19,6 +21,18 @@ document.addEventListener("DOMContentLoaded", function () {
             document.documentElement.scrollTop = 0;
         };
         
+    }
+
+    // Xử lý sự kiện show menu ở handbook
+    function handleTableOfContent () {
+        if(! tableOfContents) return
+
+        tableOfContents.forEach((tableOfContent)=>{
+            var children = tableOfContent.querySelector('.js__tableOfContentHeading')
+            children.onclick = function() {
+                tableOfContent.classList.toggle('active')
+            }
+        })
     }
 
     // Xử lý sự kiện khi nhấn nút search trên thanh navbar
@@ -130,6 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
         handleShowSubMenu();
         handleShowDropdownSubMenu();
         handleVideo169();
+        handleTableOfContent();
         // scroll
         handleWindowScroll();
         handleSearchNavbar();
