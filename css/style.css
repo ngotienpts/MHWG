@@ -3786,6 +3786,10 @@ img {
   opacity: 0;
   inset-inline-start: 20px;
 }
+.detail-secondary .comment-form-input.not-empty label {
+  opacity: 0;
+  inset-inline-start: 20px;
+}
 .detail-secondary .form-submit {
   padding: 5px 20px;
   font-size: 15px;

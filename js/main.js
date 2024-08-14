@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const tableOfContents = document.querySelectorAll(".js__tableOfContentItem");
 
+    const formInputs = document.querySelectorAll(".comment-form-input");
+
+
+
 
     // Xử lý sự kiện khi nhấn nút "back to top"
     function handleBackTop() {
@@ -21,6 +25,23 @@ document.addEventListener("DOMContentLoaded", function () {
             document.documentElement.scrollTop = 0;
         };
         
+    }
+
+    // Xử lý sự kiện focus vào thẻ input textarea
+    function handleFocuswithin() {
+        if(!formInputs) return
+        formInputs.forEach((formInput)=>{
+            let inputElement = formInput.querySelector('input, textarea');
+            if (inputElement) {
+                inputElement.addEventListener('input', () => {
+                    if (inputElement.value.trim() !== '') {
+                        formInput.classList.add('not-empty');
+                    } else {
+                        formInput.classList.remove('not-empty');
+                    }
+                });
+            }
+        })
     }
 
     // Xử lý sự kiện show menu ở handbook
@@ -145,6 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
         handleShowDropdownSubMenu();
         handleVideo169();
         handleTableOfContent();
+        handleFocuswithin();
         // scroll
         handleWindowScroll();
         handleSearchNavbar();
