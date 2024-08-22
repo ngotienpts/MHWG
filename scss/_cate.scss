@@ -2171,3 +2171,65 @@
     padding-bottom: 40px !important;
 }
 // end question
+
+// user manual
+.user-manual-primary {
+    &__container {
+        padding-top: 60px;
+
+        .box-one {
+            border: 5px solid #F16977;
+            border-radius: 10px;
+            padding: 30px;
+
+            .two-item {
+                border-bottom: 1px dashed #F16977;
+                .img {
+                    img {
+                        width: 91px;
+                        height: auto;
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .box-two {
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            .two-item {
+                .text {
+                    border: 2px dashed #000;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                }
+            }
+            &__btn {
+                margin-top: 20px;
+                &-link {
+                    font-weight: 600;
+                    background-color: transparent;
+                    background-image: linear-gradient(90deg, #F16977 0%, #6751A2 100%);
+                    border-radius: 3px 3px 3px 3px;
+                    padding: 15px 30px 15px 30px;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        background-color: transparent;
+                        background-image: linear-gradient(90deg, #F5AE43 0%, #f2295b 100%);
+                        color: #fff;
+                    }
+                    img {
+                        width: 15px;
+                        height: auto;
+                        flex-shrink: 0;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+// end user manual

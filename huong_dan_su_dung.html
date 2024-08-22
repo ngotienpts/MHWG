@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./images/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon/favicon-16x16.png"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./images/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- end favicon -->
+        <title>Handbook Korean - Sổ Tay SỨC KHỎE Cho người lao động VIỆT NAM làm việc tại HÀN QUỐC</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap"
+            rel="stylesheet"
+        />
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- header -->
+        <header id="header" class="header relative js__stickyHeader">
+            <!-- pc -->
+            <div class="header-container w-1290">
+                <div class="header-top d-3xl-flex items-center justify-between">
+                    <!-- logo -->
+                    <div class="header-logo flex-0">
+                        <a href="#" class="header-logo__link"><img src="./images/logo-trang-1.png" alt="" class="header-logo__img"></a>
+                    </div>
+                    <!-- logo -->
+                    <div class="header-right flex-1 d-3xl-flex items-center gap-24">
+                        <!-- search -->
+                         <div class="header-search js__searchContainer">
+                            <div class="header-search__icon js__searchIcon">
+                                <img src="./images/svg/search.svg" alt="">
+                            </div>
+                            <div class="header-search__wrapper js__searchContent">
+                                <div class="header-search__close js__closeSearch">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <div class="header-search__form">
+                                    <form action="" class="relative">
+                                        <input type="text" class="search-input w-full h-full js__searchInput" placeholder="Tìm kiếm...">
+                                        <button class="search-btn">
+                                            <svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z" fill="currentColor"></path></svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                        <!-- end search -->
+                        <!-- navbar -->
+                         <ul class="navbar d-3xl-flex items-center gap-24">
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Handbook</a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 1: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 2: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 3: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Tin tức</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Liên hệ</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Về chúng tôi</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item navbar-item-languageWrapper">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link navbar-item__language">
+                                        <div class="navbar-item__flag-icon">
+                                            <img src="./images/flag-vi.png" alt="">
+                                        </div>
+                                        <span class="navbar-item__text">Tiếng việt</span>
+                                    </a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-item__link navbar-item__language">
+                                                <div class="navbar-item__flag">
+                                                    <img src="./images/flag-co.png" alt="">
+                                                </div>
+                                                <span class="navbar-item__text">KO</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            
+                         </ul>
+                        <!-- end navbar -->
+
+                        <!-- menu mobile -->
+                        <div class="sub-menu d-3xl-none d-md-block">
+                            <!-- icon bar -->
+                            <div class="icon-bar js__clickShowMenuMb px-15 py-10">
+                                <img src="./images/svg/bar-w.svg" alt="">
+                            </div>
+                            <!-- end icon bar -->
+                            <!-- content -->
+                            <div class="sub-menu__content">
+                                <!-- close -->
+                                <div class="sub-menu__close js__closeSubMenu h-56 p-4 mb-8 d-3xl-flex items-center text-white">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <!-- end close -->
+
+                                <div class="sub-menu__container">
+                                    <!-- list -->
+                                    <div class="sub-menu__list">
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end list -->
+                                </div>
+                            </div>
+                            <!-- end content -->
+                            <div class="overlay js__overlay"></div>
+                        </div>
+                        <!-- end menu mobile -->
+                    </div>
+                </div>
+            </div>
+            <!-- end pc -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            
+            <!-- primary -->
+            <section class="user-manual-primary relative z-20 over-hidden w-wrapper bg-white">
+                <div class="user-manual-primary__container w-1290">
+                    <!-- box one -->
+                    <div class="box-one">
+                        <h2 class="box-one__title fs-20 mb-20">Khi có thắc mắc hoặc khi gặp vấn đề liên quan đến sức khỏe, bạn hãy:</h2>
+                        <div class="two-item d-3xl-flex items-center justify-between pb-20 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/6yn9ilez20200313033505.jpg" alt="" class="mx-auto">
+                            </div>
+                            <h3 class="text flex-1 p-15 fs-20 text-justify">
+                                Click vào ô tìm kiếm để tìm thông tin bạn cần.
+                            </h3>
+                        </div>
+                        <div class="two-item d-3xl-flex items-center justify-between pb-20 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/in-2.jpg" alt="" class="mx-auto">
+                            </div>
+                            <h3 class="text flex-1 p-15 fs-20 text-justify">
+                                <p>Nếu có thắc mắc, hãy xem [Danh sách kênh tư vấn] thuộc <strong>Chương 8</strong> để được tư vấn chi tiết.</p>
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- end box one -->
+
+                    <!-- box two -->
+                    <div class="box-two">
+                        <h2 class="box-two__title fs-22 fw-600 text-center mb-20">CÁC NHÂN VẬT XUẤT HIỆN TRONG CUỐN SỔ TAY</h2>
+                        <p class="box-two__des fs-20 mb-20">Những nhân vật trong cuốn Sổ tay này đều là nhân vật hư cấu. Sổ tay đề cập đến những vấn đề mà người Việt Nam đang làm việc tại Nhật Bản có thể gặp phải dưới dạng câu hỏi của các nhân vật.</p>
+                        <div class="two-item d-3xl-flex items-center justify-between py-10 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/duy.png" alt="" class="w-full">
+                            </div>
+                            <h3 class="text flex-1 p-30 text-center border-10 fs-20 text-justify">
+                                <p><strong>1. Duy</strong></p>
+                                <p>Tuổi: 33<br>Nghề nghiệp: Lao động trong nhà máy lắp ráp, chế tạo<br>Ngôn ngữ: Tiếng Việt (ngôn ngữ mẹ đẻ), tiếng Hàn (hạn chế) <br>Gia đình: Đã kết hôn. Vợ và các con đang sinh sống tại Việt Nam Đặc điểm: Lần đầu tiên đến và sinh sống tại Hàn Quốc<br>Tình trạng sức khỏe: Chứng đau đầu gối <br>Loại visa: E-9 (lao động phổ thông)</p>
+                            </h3>
+                        </div>
+                        <div class="two-item d-3xl-flex items-center justify-between py-10 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/mai.png" alt="" class="w-full">
+                            </div>
+                            <h3 class="text flex-1 p-30 text-center border-10 fs-20 text-justify">
+                                <p><strong>2. Mai</strong></p>
+                                <p>Tuổi: 29<br>Nghề nghiệp: Lao động trong nhà máy lắp ráp, chế tạo<br>Ngôn ngữ: Tiếng Việt (ngôn ngữ mẹ đẻ), tiếng Hàn (hạn chế) <br>Gia đình: Chưa kết hôn<br>Đặc điểm: Sống tại Hàn Quốc cùng bạn người Việt Nam <br>Tình trạng sức khỏe: Hay bị cảm và đau đầu <br>Loại visa: E-9 (lao động phổ thông)</p>
+                            </h3>
+                        </div>
+                        <div class="two-item d-3xl-flex items-center justify-between py-10 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/Anh.png" alt="" class="w-full">
+                            </div>
+                            <h3 class="text flex-1 p-30 text-center border-10 fs-20 text-justify">
+                                <p><strong>3. Hiếu</strong></p>
+                                <p>Tuổi: 27<br>Nghề nghiệp: Lao động trong lĩnh vực nông nghiệp<br>Ngôn ngữ: Tiếng Việt (ngôn ngữ mẹ đẻ), tiếng Hàn (hạn chế) <br>Gia đình: Chưa kết hôn<br>Đặc điểm: Lần đầu sang Hàn Quốc<br>Tình trạng sức khỏe: Tốt <br>Loại visa: E-8 (Visa lao động ngắn hạn)</p>
+                            </h3>
+                        </div>
+                        <div class="two-item d-3xl-flex items-center justify-between py-10 mb-20">
+                            <div class="img flex-0 w-20">
+                                <img src="./images/hieu.png" alt="" class="w-full">
+                            </div>
+                            <h3 class="text flex-1 p-30 text-center border-10 fs-20 text-justify">
+                                <p><strong>4. Anh</strong></p>
+                                <p>Tuổi: 31<br>Nghề nghiệp: Thuyền viên<br>Ngôn ngữ: Tiếng Việt (ngôn ngữ mẹ đẻ), tiếng Hàn <br>(hạn chế)<br>Gia đình: Chưa kết hôn<br>Đặc điểm: Công việc cần dùng nhiều sức lực <br>Tình trạng sức khỏe: Từng bị trầm cảm trong quá khứ <br>Loại visa: E-10 (Visa lao động trên tàu thuyền)</p>
+                            </h3>
+                        </div>
+                        <p class="text-center fs-20 mt-40"><b>SỐ ĐIỆN THOẠI TƯ VẤN THEO TỪNG TÌNH HUỐNG</b></p>
+                        
+                        <div  class="box-two__btn d-3xl-flex items-center justify-center">
+                            <a href="#" class="box-two__btn-link d-3xl-flex items-center fs-15 text-white">
+                                Xem chi tiết tại đây <img src="./images/svg/i-white.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end box two -->
+                </div>
+            </section>
+            <!-- end primary -->
+
+            <!-- secondary -->
+             <section class="user-manual-secondary relative z-20 over-hidden w-wrapper">
+                <div class="user-manual-secondary__container w-1290"></div>
+             </section>
+            <!-- end secondary -->
+
+            
+
+            <!-- quinary -->
+            <section class="main-quinary relative z-20 over-hidden w-wrapper">
+                <div class="main-quinary__container w-1290">
+                    <a href="">
+                        <img src="./images/footer.png" alt="" class="w-full" style="height: auto;">
+                    </a>
+                </div>
+            </section>
+            <!-- end quinary -->
+            
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative px-20 py-10">
+            <p class="footer-text text-center fs-15 text-gray-192">© Hanbook. All Rights reserved. Designer by Digotech.vn</p>
+            <!-- back top -->
+            <!-- <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div> -->
+            <!-- end back top -->
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

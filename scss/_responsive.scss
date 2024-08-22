@@ -1074,6 +1074,49 @@
             }
         }
     }
+    .user-manual-primary {
+        &__container {
+            .box-one {
+                padding: 20px;
+                &__title {
+                    font-size: 18px;
+                }
+                .two-item {
+                    display: block;
+                    .img {
+                        width: 100%;
+                    }
+                    .text {
+                        font-size: 18px;
+                        padding: 0;
+                    }
+                }
+            }
+            .box-two {
+                &__title,p {
+                    font-size: 18px;
+                }
+    
+                .two-item {
+                    display: block;
+                    padding: 10px;
+                    .img {
+                        width: 100%;
+                        margin-bottom: 20px;
+                        img {
+                            width: 161px;
+                            height: auto;
+                            margin: auto;
+                        }
+                    }
+                    .text {
+                        margin-left: 0;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+    }
     // --------------------------------------------------------------------detail
     .detail-primary {
         .sapo,
