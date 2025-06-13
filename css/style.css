@@ -3322,6 +3322,12 @@ img {
   width: 100%;
   height: auto;
 }
+.chapter-secondary__right .part-twenty-four-4 .top-text {
+  border-bottom: 1px solid #000;
+}
+.chapter-secondary__right .part-twenty-four-4 .article-left .list-text {
+  border-right: 1px solid #000;
+}
 .chapter-secondary__right .part-five-5 .article-table {
   align-items: stretch;
 }
@@ -4657,6 +4663,24 @@ img {
   }
   .chapter-secondary__right .part-twenty-two-4 .article-btn {
     font-size: 16px;
+  }
+  .chapter-secondary__right .part-twenty-three-4 .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .chapter-secondary__right .part-twenty-three-4 .article-img {
+    margin: auto;
+    width: 60%;
+    order: 1;
+  }
+  .chapter-secondary__right .part-twenty-three-4 .article-text {
+    order: 2;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .chapter-secondary__right .part-twenty-four-4 .article-left .list-text {
+    border-right: none;
   }
   .chapter-secondary__right .part-two-5 table .table-head__cell {
     min-width: 200px;

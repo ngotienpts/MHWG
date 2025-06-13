@@ -980,6 +980,33 @@
                 }
             }
 
+            .part-twenty-three-4 {
+                .article {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .article-img {
+                    margin: auto;
+                    width: 60%;
+                    order: 1;
+                }
+                .article-text {
+                    order: 2;
+                    padding-left: 0;
+                    padding-right: 0;
+                    padding-top: 20px;
+                }
+            }
+
+            .part-twenty-four-4 {
+
+                .article-left {
+                    .list-text {
+                        border-right: none;
+                    }
+                }
+            }
+
             // chuong 5
 
             .part-two-5 {
